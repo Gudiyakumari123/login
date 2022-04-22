@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<script src="jscode.js"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<style>
+form{
+border:solid 3px black;
+border-width:10px;
+background-color:lightblue;
+}
+</style>
+</head>
+<body>
+<center>
+
+<form style="border:solid 3px black; width=400; height:300" id="theform" action="helloworld.html" method="post" onsubmit=" return validateTextBox();">
+<h1>LOGIN PAGE</h1>
+
+
+
+<div class="row">
+Name:<input type="text" placeholder="enter name" id="name" name="">
+</div>
+<br><br>
+
+<div class="row">
+Password:<input type="password"  placeholder="enter password"id="password" name="">
+</div>
+<br>
+
+<input type="submit" value="login">
+</center>
+</body>
+
+
+</html>
